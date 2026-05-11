@@ -219,3 +219,25 @@
 // }
 // fetchData()
 
+
+// let arr = [1, 23, 4, 5, 6, 100]
+
+// function result(arr) {
+//     const view = arr.sort((a, b) => b - a)
+//     console.log(view)
+// }
+// result(arr)
+
+
+let obj1 = {
+    name : "mohit",
+    age : 12
+}
+
+let obj2 = {
+    name : "inzamam",
+    country : "Bangladesh"
+}
+
+const merge = {...obj1,...obj2}
+console.log(merge)
