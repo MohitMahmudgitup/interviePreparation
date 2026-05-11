@@ -104,6 +104,118 @@
 
 
 
+// console.log(a)
+// var a = 10;
 
-const arr = []
+// greet()
+// function greet (){
+//     console.log("hello world")
+// }
+
+// greet()
+// var greet = function(){
+//       console.log("hello world")
+// }
+
+// let arr = [0,1,2,3,4,"s", 5,6 ,"l",76,7];
+// const num = arr.filter(item => typeof item === "number")
+// const str = arr.filter(item => typeof item === "string")
+// let newArr = [ num  , str  ]
+// console.log(newArr)
+
+
+// if(true){
+//     var a = "a";
+//     let b = "b";
+//     const c = "c";
+//     console.log(a)
+//     console.log(b)
+//     console.log(c)
+// }
+//   console.log(a)
+//     console.log(b)
+//     console.log(c)
+
+// const object = {1 : NaN}
+// console.log(object)
+
+
+// let arr = [1, 2, 3, 4, 5];
+// let result = arr.forEach(item => item)
+
+// console.log(result)
+
+// ``High Order Functions``
+
+// 01
+// function abc (a ,b , cb){
+//     let result = a + b;
+//     cb(result)
+// }
+// abc(2,3,function(val){
+//     console.log(val)
+// })
+
+// 02
+// function abc (a,b,defg){
+//     defg(a+b)
+// }
+// abc(1,2,(v)=>{
+//     console.log(v)
+// })
+
+
+// ``IIFE -> Immediately Inoked Function Expression
+
+// (function name(a,b){
+//     let result = a + b
+//     console.log(result)
+// })(1,2)
+
+//``Closers``
+
+// function outer (){
+//     let count = 10;
+//     function inner (){
+//         console.log(count)
+//     }
+//     inner()
+// }
+// const store =  outer()
+// store()
+
+
+
+//Promise
+
+// 01
+// const data = {
+//     mohit: "hello world"
+// }
+
+// function fetchData (){
+//     return new Promise((res,rej)=> {
+//         setTimeout(()=>{
+//             res(data)
+//         },5000)
+//     })
+// }
+// fetchData()
+// .then(data=> console.log(data))
+// .catch(err => console.log(err))
+
+// 02
+// const fetchData = async () => {
+//     try {
+//          const response = await fetch("https://jsonplaceholder.typicode.com/users")
+
+//         const data = await response.json()
+
+//         console.log(data)
+//     } catch (error) {
+// console.log(error)
+//     }
+
+// }
+// fetchData()
 
