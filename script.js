@@ -229,15 +229,32 @@
 // result(arr)
 
 
-let obj1 = {
-    name : "mohit",
-    age : 12
-}
+// let obj1 = {
+//     name : "mohit",
+//     age : 12
+// }
 
-let obj2 = {
-    name : "inzamam",
-    country : "Bangladesh"
-}
+// let obj2 = {
+//     name : "inzamam",
+//     country : "Bangladesh"
+// }
 
-const merge = {...obj1,...obj2}
-console.log(merge)
+// const merge = {...obj1,...obj2}
+// console.log(merge)
+
+
+
+// ``Rest Parameters``
+// function restT(a,...rest){
+//     return {
+//         a,
+//         rest}
+// }
+
+// console.log(restT(1,2,34,4,5,6,"hello"))
+
+
+//``Array Destructuring ``
+const arr = [1,2,3];
+const [inzmam , rakib , hasan ] = arr
+console.log(rakib)
