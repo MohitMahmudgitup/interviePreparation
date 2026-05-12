@@ -255,6 +255,71 @@
 
 
 //``Array Destructuring ``
-const arr = [1,2,3];
-const [inzmam , rakib , hasan ] = arr
-console.log(rakib)
+// const arr = [1,2,3];
+// const [inzmam , rakib , hasan ] = arr
+// console.log(rakib)
+
+
+// const num = "sxjui";
+// console.log(isNaN(num))
+
+
+// let a = 100
+// let b = a++
+// console.log(a+b)
+
+
+
+
+// ``Deep Copy & Shallow Copy ``
+
+// 01  Shallow Copy 
+// let obj = {
+//     name : "inzamam",
+//     age : 342
+// }
+// let obj2 = {...obj}
+// obj2.name = "name"
+// console.log(obj2)
+// console.log(obj)
+
+
+//02 Deep Copy
+const data = {
+    name: "inzaamam",
+    age: 10,
+    school: {
+        class: 10,
+        roll: 11,
+        subject: {
+            1: "math"
+        }
+    }
+}
+// const copyData = JSON.parse(JSON.stringify(data));
+// copyData.school.roll = 100 
+// console.log("Data :" , data)
+// console.log("copyData : " , copyData)
+
+// function deepCopy (val){
+//     if (val === null || typeof val !== "object" ){
+//         return val
+//     }
+
+//     const copyL = Array.isArray(val) ? [] : {}
+//     const keys = Object.keys(val)
+
+//     for (let i = 0 ; i < keys.length ; i++ ){
+//        copyL[keys[i]] = deepCopy(val[keys[i]])
+//     }
+
+//     return copyL
+// }
+//  const result =deepCopy(data)
+//  console.log(result)
+
+
+// const arr = ["a", "b", "a", "c", "b", "a"];
+// const result = [...new Set(arr)]
+// console.log(result)
+
